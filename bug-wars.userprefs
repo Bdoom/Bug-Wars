@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\UnitMovementController.cs">
+    <Files>
+      <File FileName="Assets\Resources\Scripts\WorldHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\HUDController.cs" Line="220" Column="1" />
+      <File FileName="Assets\Resources\Scripts\Anthill.cs" Line="83" Column="1" />
+      <File FileName="Assets\Resources\Scripts\Networking\CustomNetworkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\BasicAnt.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\Beatle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\TerrainObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\OnVictoryDefeat.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\FireBeatleBullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\UnitMovementController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\UnitIdentity.cs" Line="11" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

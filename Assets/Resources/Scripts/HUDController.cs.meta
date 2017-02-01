@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b9418c79076e0b1459989b3692247a2f
+timeCreated: 1456813944
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - minimapCamera: {instanceID: 0}
+  - hudBottomCenter: {fileID: 2800000, guid: 890b2887edb2d9c458e8e8e55cba19c8, type: 3}
+  - hudTopRight: {fileID: 2800000, guid: b89992047269f8f4bbc901d334d97b6b, type: 3}
+  - minimapRenderTexture: {fileID: 8400000, guid: e3634e28655b9c7438c9bfdc0ad6ad0f,
+      type: 2}
+  - minimapTexture: {fileID: 2800000, guid: c1f38fbf7fbe7eb46ab8365bbb066b51, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
