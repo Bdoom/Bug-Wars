@@ -12,7 +12,7 @@ public class FireBeatleBullet : NetworkBehaviour
 
     private int beatleDamage = 25;
 
-    public NavMeshAgent agent;
+    public UnityEngine.AI.NavMeshAgent agent;
 
     // Destroy after time vars
     // destroy the bullet if it does not collide after 5 seconds.

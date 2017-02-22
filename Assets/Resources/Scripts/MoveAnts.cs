@@ -9,7 +9,7 @@ public class MoveAnts : MonoBehaviour {
 		foreach (GameObject unit in units) {			
 			int positionPoint = Random.Range (0, positions.Length);
 			Transform t = positions [positionPoint].transform;
-			NavMeshAgent agent = unit.GetComponent<NavMeshAgent> ();
+			UnityEngine.AI.NavMeshAgent agent = unit.GetComponent<UnityEngine.AI.NavMeshAgent> ();
 			agent.SetDestination (t.position);
 			unit.GetComponent<Animation> ().CrossFade ("ant-walk");
 		}

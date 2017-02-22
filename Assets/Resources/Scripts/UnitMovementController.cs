@@ -125,7 +125,7 @@ public class UnitMovementController : NetworkBehaviour
     [Client]
     public void SetDestination(GameObject g, Vector3 destination)
     {
-        NavMeshAgent agent = g.GetComponent<NavMeshAgent>();
+        UnityEngine.AI.NavMeshAgent agent = g.GetComponent<UnityEngine.AI.NavMeshAgent>();
 
         agent.SetDestination(destination);
     }

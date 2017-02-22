@@ -138,7 +138,7 @@ public class WorldHandler : NetworkBehaviour
     [Command]
     public void Cmd_FireProjectile(GameObject beatle, Vector3 target)
     {
-		beatle.GetComponent<NavMeshAgent> ().ResetPath (); // Resets the path
+		beatle.GetComponent<UnityEngine.AI.NavMeshAgent> ().ResetPath (); // Resets the path
 
 
         if (timer >= beatle.GetComponent<Beatle>().AttackSpeed)
@@ -663,7 +663,7 @@ public class WorldHandler : NetworkBehaviour
         {
             if (unit.GetComponent<BasicAnt>() != null)
             {
-                unit.GetComponent<NavMeshAgent>().speed = speed;
+                unit.GetComponent<UnityEngine.AI.NavMeshAgent>().speed = speed;
                 unitsChanged++;
             }
         }
@@ -747,7 +747,7 @@ public class WorldHandler : NetworkBehaviour
         {
             if (unit.GetComponent<Beatle>() != null)
             {
-                unit.GetComponent<NavMeshAgent>().speed = moveSpd;
+                unit.GetComponent<UnityEngine.AI.NavMeshAgent>().speed = moveSpd;
                 unitsChanged++;
             }
         }
@@ -781,8 +781,8 @@ public class WorldHandler : NetworkBehaviour
 	public static void StopAllUnits() {
 		ArrayList units = countUnitsAsArray ();
 		foreach (GameObject unit in units) {
-			if (unit.GetComponent<NavMeshAgent> () != null) {
-				unit.GetComponent<NavMeshAgent> ().ResetPath ();
+			if (unit.GetComponent<UnityEngine.AI.NavMeshAgent> () != null) {
+				unit.GetComponent<UnityEngine.AI.NavMeshAgent> ().ResetPath ();
 			}
 		}
 	}

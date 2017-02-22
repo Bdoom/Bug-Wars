@@ -43,7 +43,7 @@ public class MinimapController : NetworkBehaviour {
 						}
 					}
 
-					NavMeshAgent agent = g.GetComponent<NavMeshAgent> ();
+					UnityEngine.AI.NavMeshAgent agent = g.GetComponent<UnityEngine.AI.NavMeshAgent> ();
 					agent.SetDestination (newDestination);
 
 					if (g.GetComponent<BasicAnt> () != null) {
