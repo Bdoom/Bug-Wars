@@ -2,7 +2,8 @@
 
 This is a project that I worked on with three other people over a span of three months. You can checkout some videos of the development over time.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cF3WebRb-ew" frameborder="0" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/cF3WebRb-ew/0.jpg)](http://www.youtube.com/watch?v=cF3WebRb-ew)
+
 
 https://www.youtube.com/watch?v=cF3WebRb-ew
 https://www.youtube.com/watch?v=vvpXk4wMUpY
